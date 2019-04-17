@@ -1,0 +1,1035 @@
+@import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+@media screen and (max-width:480px){
+  div#sidebar{width:100%;}
+}
+@media screen and (min-width:1024px){
+  *{
+    box-sizing:border-box;
+  }
+
+  body{
+    margin:0;
+    /* font-family:"Hiragino Kaku GOthic ProN"; */
+    font-family: "Rounded Mplus 1c";
+    width:100%;
+  }
+  header{
+    color:orange;
+    height:100px;
+  }
+  header h1{
+    font-size: 50px;
+    float:left;
+    margin:10px;
+    font-weight:bold;
+    font-style:italic;
+    border-bottom:solid 3px orange;
+    letter-spacing:0.1em;
+  }
+  .hamu-menu
+  .header-container{
+    background-image: url("IMG_5323.PNG");
+    height:300px;
+    width:100%;
+    background-size:cover;
+    color:white;
+   }
+
+   .top-wrapper{
+     height:300px;
+     width:1170px;
+     background: rgba(255,255,255,0.3);
+     float:left;
+   }
+   .top-wrapper h1{
+     font-size: 45px;
+     opacity:0.8;
+     letter-spacing:5;
+     margin:150px auto 20px 200px;
+   }
+   .insta_btn {
+   display: inline-block;
+   text-align: center;/*中央揃え*/
+   color: magenta;/*文字色*/
+   font-size: 20px;/*文字サイズ*/
+   text-decoration: none;/*下線消す*/ }
+   .insta_btn:hover {/*ホバー時*/
+     color:pink;/*文字色*/
+     transition: .5s;/*ゆっくり変化*/
+   }
+   .insta_btn .insta{/*アイコンの背景*/
+     position: relative;/*相対配置*/
+     display: inline-block;
+     width: 50px;/*幅*/
+     height: 50px;/*高さ*/
+     vertical-align: middle;/*垂直中央に*/
+     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+     overflow: hidden;/*はみ出た部分を隠す*/
+     border-radius: 13px;/*角丸に*/
+     margin-left: 20px;
+   }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position: absolute;/*絶対配置*/
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: : 20px;
+  }
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+  }
+
+   /* https://www.instagram.com/sunnys_official/?hl=ja */
+
+   }
+   /* .top-wrapper p{
+    opacity:0.8;
+    margin-left: 20px;
+    font-size:25px;
+    color:magenta;
+   } */
+   .intro-wrapper{
+     /* background-color: yellow; */
+     background-color: rgba(255,255,0,0.25);
+     font-family: "Rounded Mplus 1c";
+     text-align: center;
+     margin-bottom: 10px;
+   }
+   .intro-wrapper p{
+     margin:0;
+     padding:0 20px;
+     font-size: 40px;
+     color:orange;
+     font-weight:bold;
+   }
+
+  .clear{
+    clear:left;
+  }
+  .concept-wrapper{
+    background-color: pink;
+    padding:15px 18px;
+  }
+
+
+  .concept-wrapper h1{
+    text-align:left;
+    margin-left: 0;
+
+  }
+  .box{
+    padding:0;
+    border: double 5px #fff;
+    color: white;
+    width:50%;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Rounded Mplus 1c";
+  }
+
+  .news-wrapper{
+    background-color: pink;
+    padding:15px 18px;
+  }
+
+
+  .news-wrapper h1{
+    text-align:center;
+    margin-left: 0;
+  }
+  .box{
+    padding:0;
+    border: double 5px #fff;
+    width:50%;
+    height:130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .news-wrapper li{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    font-family: "Rounded Mplus 1c";
+    /* float:none; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .member-wrapper{
+    padding:20px;
+    background-color: pink;
+  }
+
+  .heading{
+    padding-top:20px;
+    padding-bottom:10px;
+    color:#5f5d60;
+  }
+  .heading h1{
+    font-weight:normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+    font-family: cursive;
+  }
+  .under{
+     position: relative;
+     padding:0.3em;
+  }
+  .under:after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 7px;
+     background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+   }
+   .boxA{
+     border:none;
+     width:80%;
+     margin: 0 auto;
+     font-family: "Rounded Mplus 1c";
+   }
+  .box1{
+    padding:0.5em 1em;
+    margin:0;
+    border: double 5px #fff;
+    height:500px;
+  }
+
+  .box1 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box1 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+    margin-left: 0;
+  }
+  .box1 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+  }
+  .box2{
+    padding:0.5em 1em;
+    margin:0;
+    border: double 5px #fff;
+    height:500px;
+  }
+  .box2 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box2 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+    margin-left: 0;
+  }
+  .box2 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+    /* float:left; */
+  }
+  .box3{
+    padding:0.5em 1em;
+    margin:0;
+    border: double 5px #fff;
+    height:500px;
+  }
+  .box3 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box3 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+    margin-left: 0;
+  }
+  .box3 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+    /* float:left; */
+  }
+  .box1,.box2,.box3{
+    float:left;
+    /* border-color:white; */
+    width:33%;
+  }
+  .photo-wrapper{
+    background-color: pink;
+    margin-top: 5px;
+  }
+  .photo-wrapper p{
+    text-align: center;
+    font-size: 25px;
+  }
+  .parent{
+    display:flex;
+    flex-direction:row;
+    max-width: 1170px;
+    width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  #parent.parent{
+    height:320px;
+  }
+  .child{
+    width:25%;
+  }
+#child-1.child{
+  height:300px;
+}
+  .child img{
+    display:block;
+    width:100%;
+  }
+  .photo2-wrapper{
+    background-color: pink;
+    margin-top: 5px;
+  }
+  .photo2-wrapper p{
+    text-align: center;
+    font-size: 25px;
+    color:#5f5d60;
+    margin:20px 0 20px 20px;
+  }
+  .flex-wrapper{
+    display:flex;
+    flex-direction:row;
+    max-width: 1170px;
+    height: 300px;
+    background-color: pink;
+    margin-bottom: 20px;
+  }
+  .baby{
+    margin-bottom:0;
+    padding:0;
+    width:100%;
+    background-color: pink;
+    height:0;
+  }
+
+  .baby img{
+    display:block;
+    width:100%;
+    height: 200px;
+    padding:5px;
+  }
+  footer{
+    height: auto;
+    background-color: pink;
+    margin-top: 5px;
+  }
+    .info{
+      padding-left: 20px;
+      padding-top: 10px;
+      border-top:solid 5px white;
+    }
+    .insta_btn {
+      display: inline-block;
+      text-align: center;/*中央揃え*/
+      color: magenta;/*文字色*/
+      font-size: 20px;/*文字サイズ*/
+    text-decoration: none;/*下線消す*/ }
+    .insta_btn:hover {/*ホバー時*/
+      color:pink;/*文字色*/
+      transition: .5s;/*ゆっくり変化*/
+    }
+    .insta_btn .insta{/*アイコンの背景*/
+      position: relative;/*相対配置*/
+      display: inline-block;
+      width: 50px;/*幅*/
+      height: 50px;/*高さ*/
+      vertical-align: middle;/*垂直中央に*/
+      background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+      background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+      overflow: hidden;/*はみ出た部分を隠す*/
+      border-radius: 13px;/*角丸に*/
+      margin-left: 20px;
+    }
+    .insta_btn .insta:before{/*グラデーションを重ねるため*/
+      content: '';
+      position:absolute;
+      top: 23px;/*ずらす*/
+      left: -18px;/*ずらす*/
+      width: 60px;/*グラデーションカバーの幅*/
+      height: 60px;/*グラデーションカバーの高さ*/
+      background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+      margin-left: 20px;
+    }
+    .insta_btn .fa-instagram {/*アイコン*/
+      color: #FFF;/*白に*/
+      position: relative;/*z-indexを使うため*/
+      z-index: 2;/*グラデーションより前に*/
+      font-size: 35px;/*アイコンサイズ*/
+      line-height: 50px;/*高さと合わせる*/
+    }
+
+  /* [css]
+  .body{
+    overflow:scroll;
+  }
+  .footer{
+    overflow: scroll;
+  }
+  [/css] */
+
+
+
+@media screen and (minimun-width:481;)(max-width:1023px){
+  *{
+    box-sizing:border-box;
+  }
+
+
+
+  body{
+    margin:0;
+    font-family:"Hiragino Kaku GOthic ProN";
+    width:100%;
+  }
+  header{
+    color:orange;
+    height:100px;
+  }
+  header h1{
+    font-size: 20px;
+    float:left;
+    margin:10px;
+    font-weight: normal;
+    font-style:italic;
+    border-bottom:solid 1px orange;
+    letter-spacing:0.1em;
+  }
+  .header-container{
+    background-image: url("IMG_5323.PNG");
+    height:300px;
+    width:100%;
+    background-size:cover;
+    color:white;
+   }
+
+   .top-wrapper{
+     height:300px;
+     width:1170px;
+     background: rgba(255,255,255,0.3);
+     float:left;
+   }
+   .top-wrapper h1{
+     font-size: 45px;
+     opacity:0.8;
+     letter-spacing:5;
+     margin:120px auto 20px 20px;
+   }
+   .insta_btn {
+   display: inline-block;
+   text-align: center;/*中央揃え*/
+   color: magenta;/*文字色*/
+   font-size: 20px;/*文字サイズ*/
+   text-decoration: none;/*下線消す*/ }
+   .insta_btn:hover {/*ホバー時*/
+     color:pink;/*文字色*/
+     transition: .5s;/*ゆっくり変化*/
+   }
+   .insta_btn .insta{/*アイコンの背景*/
+     position: relative;/*相対配置*/
+     display: inline-block;
+     width: 50px;/*幅*/
+     height: 50px;/*高さ*/
+     vertical-align: middle;/*垂直中央に*/
+     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+     overflow: hidden;/*はみ出た部分を隠す*/
+     border-radius: 13px;/*角丸に*/
+     margin-left: 20px;
+   }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position: absolute;/*絶対配置*/
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: : 20px;
+  }
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+  }
+
+   /* https://www.instagram.com/sunnys_official/?hl=ja */
+
+   .top-wrapper p{
+    opacity:0.8;
+    margin-left: 20px;
+   }
+  .clear{
+    clear:left;
+  }
+  .news-wrapper{
+    background-color: pink;
+    padding:15px 18px;
+
+  }
+  .box{
+    padding:0;
+    border: double 5px #fff;
+    width:100%;
+    height:130px;
+  }
+  .news-wrapper li{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    float:left;
+    margin-left: 0;
+  }
+  .member-wrapper{
+    padding:20px;
+    background-color: pink;
+    text-align: center;
+  }
+
+  .heading{
+    padding-top:20px;
+    padding-bottom:10px;
+    color:#5f5d60;
+  }
+  .heading h1{
+    font-weight:normal;
+    margin-top: 10px;
+  }
+  .under{
+     position: relative;
+     padding:0.3em;
+  }
+  .under:after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 7px;
+     background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+   }
+  .box1{
+    padding:0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #fff;
+  }
+
+  .box1 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box1 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box1 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+    float:left;
+  }
+  .box2{
+    padding:0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #fff;
+  }
+  .box2 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box2 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box2 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+    float:left;
+  }
+  .box3{
+    padding:0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #fff;
+  }
+  .box3 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box3 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box3 p{
+    font-size: 15px;
+    margin-top:5px;
+    color:white;
+    float:left;
+  }
+  .box1,.box2,.box3{
+    float:left;
+    /* border-color:white; */
+    width:28%;
+  }
+}
+
+@media screen and (max-width:480px){
+  *{
+    box-sizing:border-box;
+    max-width:100%;
+    height:auto;
+  }
+
+  body{
+    margin:0;
+    font-family:"Rounded Mplus 1c";
+    width:100%;
+  }
+  header{
+    color:orange;
+    height:10px;
+  }
+  header h1{
+    font-size: 20px;
+    float:left;
+    padding-left:10px;
+    font-weight: normal;
+    font-style:italic;
+    border-bottom:solid 1px orange;
+    letter-spacing:0.1em;
+  }
+
+  .header-container{
+    background-image: url("IMG_5323.PNG")0 0 no-repeat;
+    height:200px;
+    width:100%;
+    background-size:cover;
+    color:orange;
+    margin-bottom: 5px;
+   }
+
+   .top-wrapper{
+     height:200px;
+     width:100%;
+     background: rgba(255,255,255,0.3);
+     float:left;
+     margin-bottom: 5px;
+   }
+   .top-wrapper h1{
+     font-size: 25px;
+     opacity:0.8;
+     letter-spacing:5;
+     margin:65px auto 10px 20px;
+     padding-left:0;
+     /* text-align: center; */
+   }
+   .insta_btn {
+   display: inline-block;
+   text-align: center;/*中央揃え*/
+   color: magenta;/*文字色*/
+   font-size: 20px;/*文字サイズ*/
+   text-decoration: none;/*下線消す*/ }
+   .insta_btn:hover {/*ホバー時*/
+     color:pink;/*文字色*/
+     transition: .5s;/*ゆっくり変化*/
+   }
+   .insta_btn .insta{/*アイコンの背景*/
+     position: relative;/*相対配置*/
+     display: inline-block;
+     width: 50px;/*幅*/
+     height: 50px;/*高さ*/
+     vertical-align: middle;/*垂直中央に*/
+     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+     overflow: hidden;/*はみ出た部分を隠す*/
+     border-radius: 13px;/*角丸に*/
+     margin-left: 20px;
+   }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position:absolute;
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: 20px;
+  }
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+  }
+
+   /* https://www.instagram.com/sunnys_official/?hl=ja */
+
+   .top-wrapper p{
+    opacity:0.8;
+    padding-left:20px;
+    margin-bottom:0;
+    text-align: center;
+   }
+  .clear{
+    clear:left;
+  }
+  .intro-wrapper{
+    background-color:rgba(255,255,0,0.25);
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+  .intro-wrapper p{
+    margin:0;
+    padding:0 20px;
+    font-size: 20px;
+    color:orange;
+    font-weight:bold;
+  }
+
+ .clear{
+   clear:left;
+ }
+ .concept-wrapper{
+   background-color: pink;
+   padding:15px 18px;
+ }
+
+
+ .concept-wrapper h1{
+   text-align:left;
+   margin-left: 0;
+   font-family: "Caveat",cursive;
+ }
+ .box{
+   font-size: 15px;
+   padding:0;
+   border: double 5px #fff;
+   color: white;
+   width:50%;
+   height:40px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+  .news-wrapper{
+    background-color: pink;
+    padding:15px 18px;
+
+  }
+  .box{
+    padding:0;
+    border: double 5px #fff;
+    width:100%;
+    height:130px;
+  }
+  .news-wrapper li{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    float:left;
+    margin-left: 0;
+    font-family: "Rounded Mplus 1c";
+  }
+  .member-wrapper{
+    padding-top:20;
+    background-color: pink;
+    width:100%;
+    height:1600px;
+  }
+
+  .heading{
+    /* padding-top:20px;
+    padding-bottom:10px; */
+    padding:0;
+    padding-left: 0;
+    color:#5f5d60;
+  }
+  .heading h1{
+    font-weight:normal;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    padding-right: 20px;
+  }
+  .under{
+     position: relative;
+     padding:0.3em;
+  }
+  .under:after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 7px;
+     background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+   }
+
+  .box1{
+    padding:15px 18px;
+    border: double 5px #fff;
+    width:100%;
+  }
+
+  .box1 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box1 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box1 p{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    float:left;
+    margin-left: 0;
+  }
+  .box2{
+    padding:15px 18px;
+    border: double 5px #fff;
+    width:100%;
+  }
+
+  .box2 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box2 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box2 p{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    float:left;
+    margin-left: 0;
+  }
+  .box3{
+      padding:15px 18px;
+      border: double 5px #fff;
+      width:100%;
+  }
+
+  .box3 img{
+    margin:0;
+    padding:0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
+  .box3 h1{
+    font-size:32px;
+    margin-top: 0.2em;
+    color:white;
+  }
+  .box3 p{
+    font-size: 15px;
+    /* margin-top:5px; */
+    padding:0 20px;
+    color:white;
+    float:left;
+    margin-left: 0;
+  }
+  .photo-wrapper{
+    background-color: pink;
+    margin-top: 5px;
+  }
+  .photo-wrapper h1{
+    padding-top: 20px;
+    padding-right:0;
+  }
+  .photo-wrapper p{
+    text-align: center;
+    font-size:15px;
+    padding-left: 0;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .parent{
+    display:flex;
+    max-width: 375px;
+    width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  #parent.parent{
+    height:320px;
+  }
+  .child{
+    width:50%;
+    background-color: pink;
+  }
+#child-1.child{
+  height:300px;
+}
+  .child img{
+    display:block;
+    width:100%;
+    height: 200px;
+    padding:5px;
+  }
+  .photo2-wrapper{
+    background-color: pink;
+    margin-top: 5px;
+    height:500px;
+  }
+  .photo2-wrapper p{
+    text-align: center;
+    font-size: 15px;
+    color:#5f5d60;
+    margin:0 0 0 20px;
+    padding:20px 0 20px 0;
+  }
+  .flex-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 375px;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 50px;
+  }
+  .baby{
+    margin-bottom:0;
+    padding:0;
+    width:50%;
+    background-color: pink;
+    height:0;
+  }
+
+  .baby img{
+    display:block;
+    width:100%;
+    height: 200px;
+    padding:5px;
+  }
+
+
+@media screen and (max-width:480px){
+  *{
+    box-sizing:border-box;
+  }
+
+
+footer{
+  height: auto;
+  background-color: pink;
+  margin-top: 5px;
+}
+  .info{
+    padding:10px auto 10px 20px;
+    border-top:solid 5px white;
+    font-size: 15px;
+  }
+  .insta_btn {
+    display: inline-block;
+    text-align: center;/*中央揃え*/
+    color: magenta;/*文字色*/
+    font-size: 20px;/*文字サイズ*/
+  text-decoration: none;/*下線消す*/ }
+  .insta_btn:hover {/*ホバー時*/
+    color:pink;/*文字色*/
+    transition: .5s;/*ゆっくり変化*/
+  }
+  .insta_btn .insta{/*アイコンの背景*/
+    position: relative;/*相対配置*/
+    display: inline-block;
+    width: 50px;/*幅*/
+    height: 50px;/*高さ*/
+    vertical-align: middle;/*垂直中央に*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    border-radius: 13px;/*角丸に*/
+    margin-left: 20px;
+  }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position:absolute;
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: 20px;
+  }
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+  }
+
+
+[css]
+.body{
+  overflow:scroll;
+}
+.footer{
+  overflow: scroll;
+}
+[/css]
