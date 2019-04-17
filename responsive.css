@@ -9,7 +9,7 @@
 
   body{
     margin:0;
-    /* font-family:"Hiragino Kaku GOthic ProN"; */
+    font-family:"Hiragino Kaku GOthic ProN";
     font-family: "Rounded Mplus 1c";
     width:100%;
   }
@@ -26,7 +26,13 @@
     border-bottom:solid 3px orange;
     letter-spacing:0.1em;
   }
-
+  .header-container{
+    background-image: url("IMG_5323.PNG")0 0 no-repeat;
+    height:300px;
+    width:100%;
+    background-size:cover;
+    color:white;
+   }
    .top-wrapper{
      height:300px;
      width:1170px;
@@ -160,6 +166,7 @@
   .member-wrapper{
     padding:20px;
     background-color: pink;
+    text-align:center;
   }
 
   .heading{
@@ -778,6 +785,7 @@
     background-color: pink;
     width:100%;
     height:1600px;
+    text-align:center;
   }
 
   .heading{
