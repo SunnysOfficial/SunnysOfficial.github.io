@@ -649,6 +649,7 @@
    background-color: pink;
    padding:15px 18px;
    height:250px;
+   text-align:center;
  }
 
 
@@ -672,6 +673,7 @@
     background-color: pink;
     padding:15px 18px;
     height:250px;
+    text-align:center;
   }
   .box{
     padding:0;
