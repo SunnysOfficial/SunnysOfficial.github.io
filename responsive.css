@@ -581,10 +581,11 @@
     font-style:italic;
     border-bottom:solid 1px orange;
     letter-spacing:0.1em;
+    width:100%;
   }
 
   .header-container{
-    background-image: url("IMG_5323.PNG")0 0 no-repeat;
+    background-image: url("IMG_5323.PNG");
     height:200px;
     width:100%;
     background-size:cover;
@@ -607,45 +608,7 @@
      padding-left:0;
      /* text-align: center; */
    }
-   .insta_btn {
-   display: inline-block;
-   text-align: center;/*中央揃え*/
-   color: magenta;/*文字色*/
-   font-size: 20px;/*文字サイズ*/
-   text-decoration: none;/*下線消す*/ }
-   .insta_btn:hover {/*ホバー時*/
-     color:pink;/*文字色*/
-     transition: .5s;/*ゆっくり変化*/
-   }
-   .insta_btn .insta{/*アイコンの背景*/
-     position: relative;/*相対配置*/
-     display: inline-block;
-     width: 50px;/*幅*/
-     height: 50px;/*高さ*/
-     vertical-align: middle;/*垂直中央に*/
-     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-     overflow: hidden;/*はみ出た部分を隠す*/
-     border-radius: 13px;/*角丸に*/
-     margin-left: 20px;
-   }
-  .insta_btn .insta:before{/*グラデーションを重ねるため*/
-    content: '';
-    position:absolute;
-    top: 23px;/*ずらす*/
-    left: -18px;/*ずらす*/
-    width: 60px;/*グラデーションカバーの幅*/
-    height: 60px;/*グラデーションカバーの高さ*/
-    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
-    margin-left: 20px;
-  }
-  .insta_btn .fa-instagram {/*アイコン*/
-    color: #FFF;/*白に*/
-    position: relative;/*z-indexを使うため*/
-    z-index: 2;/*グラデーションより前に*/
-    font-size: 35px;/*アイコンサイズ*/
-    line-height: 50px;/*高さと合わせる*/
-  }
+   
    /* https://www.instagram.com/sunnys_official/?hl=ja */
 
    .top-wrapper p{
@@ -669,6 +632,7 @@
     font-size: 20px;
     color:orange;
     font-weight:bold;
+    float:left;
   }
 
  .clear{
