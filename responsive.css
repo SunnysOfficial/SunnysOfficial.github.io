@@ -648,13 +648,14 @@
  .concept-wrapper{
    background-color: pink;
    padding:15px 18px;
+   height:250px;
  }
 
 
  .concept-wrapper h1{
    text-align:center;
    margin-left: 0;
-   font-family: "Caveat",cursive;
+   font-family:cursive;
  }
  .box{
    font-size: 15px;
