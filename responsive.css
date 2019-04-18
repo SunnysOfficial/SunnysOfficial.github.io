@@ -629,7 +629,6 @@
 
   body{
     margin:0;
-    font-family:"Hiragino Kaku GOthic ProN";
     font-family:"Rounded Mplus 1c";
     width:100%;
   }
@@ -648,7 +647,7 @@
   }
 
   .header-container{
-    background-image: url("IMG_5323.PNG");
+    background-image: url("IMG_5323.PNG")0 0 no-repeat;
     height:200px;
     width:100%;
     background-size:cover;
@@ -748,7 +747,7 @@
  .concept-wrapper h1{
    text-align:left;
    margin-left: 0;
-   font-family:cursive;
+   font-family: "Caveat",cursive;
  }
  .box{
    font-size: 15px;
@@ -759,16 +758,13 @@
    height:40px;
    margin-left: auto;
    margin-right: auto;
-   font-family: "Rounded Mplus 1c";
  }
 
   .news-wrapper{
     background-color: pink;
     padding:15px 18px;
-    font-family: "cursie";
+
   }
-  .news-wrapper h1{
-    font-family:cursive;
   .box{
     padding:0;
     border: double 5px #fff;
@@ -789,7 +785,7 @@
     background-color: pink;
     width:100%;
     height:1600px;
-    text-align:center;
+    text-align: center;
   }
 
   .heading{
@@ -805,7 +801,6 @@
     margin-left: 0;
     text-align: center;
     padding-right: 20px;
-    font-family:cursive;
   }
   .under{
      position: relative;
@@ -814,6 +809,7 @@
   .under:after {
      content: '';
      position: absolute;
+     text-align: center;
      left: 0;
      bottom: 0;
      width: 100%;
@@ -838,8 +834,7 @@
     font-size:32px;
     margin-top: 0.2em;
     color:white;
-    margin-left:0;
-    passing-left:0;
+    margin-left: 0;
   }
   .box1 p{
     font-size: 15px;
@@ -866,8 +861,7 @@
     font-size:32px;
     margin-top: 0.2em;
     color:white;
-    margin-left:0;
-    padding-left:0;
+    margin-left: 0;
   }
   .box2 p{
     font-size: 15px;
@@ -894,8 +888,7 @@
     font-size:32px;
     margin-top: 0.2em;
     color:white;
-    margin-left:0;
-    padding-left:0;
+    margin-left: 0;
   }
   .box3 p{
     font-size: 15px;
@@ -919,6 +912,8 @@
     padding-left: 0;
     font-weight: bold;
     margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom:20px;
   }
   .parent{
     display:flex;
