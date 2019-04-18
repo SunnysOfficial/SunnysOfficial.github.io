@@ -748,7 +748,7 @@
  .concept-wrapper h1{
    text-align:left;
    margin-left: 0;
-   font-family:cursive;
+   font-family:fantasy;
  }
  .box{
    font-size: 15px;
@@ -759,12 +759,13 @@
    height:40px;
    margin-left: auto;
    margin-right: auto;
+   font-family: "Rounded Mplus 1c";
  }
 
   .news-wrapper{
     background-color: pink;
     padding:15px 18px;
-
+    font-family: "Rounded Mplus 1c";
   }
   .box{
     padding:0;
@@ -802,6 +803,7 @@
     margin-left: 0;
     text-align: center;
     padding-right: 20px;
+    font-family:cursive;
   }
   .under{
      position: relative;
