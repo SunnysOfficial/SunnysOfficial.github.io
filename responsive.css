@@ -646,7 +646,7 @@
     letter-spacing:0.1em;
   }
 
-  .header-container{
+/*   .header-container{
     background-image: url("IMG_5323.PNG");
     height:200px;
     width:100%;
@@ -654,7 +654,14 @@
     color:orange;
     margin-bottom: 5px;
   }
-
+ */
+  .header-container{
+    background-image: url("IMG_5323.PNG");
+    height:300px;
+    width:100%;
+    background-size:cover;
+    color:white;
+   }
    .top-wrapper{
      height:200px;
      width:100%;
