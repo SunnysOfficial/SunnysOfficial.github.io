@@ -570,11 +570,10 @@
     width:100%;
   }
   header{
+    color:orange;
     height:10px;
-    background-color:white;
   }
   header h1{
-    color:orange;
     font-size: 20px;
     float:left;
     padding-left:10px;
@@ -585,13 +584,13 @@
   }
 
   .header-container{
-    background-image: url("IMG_5323.PNG");
+    background-image: url("IMG_5323.PNG")0 0 no-repeat;
     height:200px;
     width:100%;
     background-size:cover;
     color:orange;
     margin-bottom: 5px;
-  }
+   }
 
    .top-wrapper{
      height:200px;
@@ -608,15 +607,45 @@
      padding-left:0;
      /* text-align: center; */
    }
-   .ig-icon{
-    text-decoration:none;
-    font-size: 25px;
-    color: magenta;
+   .insta_btn {
+   display: inline-block;
+   text-align: center;/*中央揃え*/
+   color: magenta;/*文字色*/
+   font-size: 20px;/*文字サイズ*/
+   text-decoration: none;/*下線消す*/ }
+   .insta_btn:hover {/*ホバー時*/
+     color:pink;/*文字色*/
+     transition: .5s;/*ゆっくり変化*/
+   }
+   .insta_btn .insta{/*アイコンの背景*/
+     position: relative;/*相対配置*/
+     display: inline-block;
+     width: 50px;/*幅*/
+     height: 50px;/*高さ*/
+     vertical-align: middle;/*垂直中央に*/
+     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+     overflow: hidden;/*はみ出た部分を隠す*/
+     border-radius: 13px;/*角丸に*/
+     margin-left: 20px;
+   }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position:absolute;
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: 20px;
   }
-  .ig-icon img{
-    height: 30px;
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
   }
-
    /* https://www.instagram.com/sunnys_official/?hl=ja */
 
    .top-wrapper p{
@@ -630,8 +659,9 @@
   }
   .intro-wrapper{
     background-color:rgba(255,255,0,0.25);
+    text-align: center;
     margin-bottom: 10px;
-    height:100px;
+
   }
   .intro-wrapper p{
     margin:0;
@@ -639,7 +669,6 @@
     font-size: 20px;
     color:orange;
     font-weight:bold;
-    text-align:center;
   }
 
  .clear{
@@ -648,15 +677,13 @@
  .concept-wrapper{
    background-color: pink;
    padding:15px 18px;
-   height:250px;
-   text-align:center;
  }
 
 
  .concept-wrapper h1{
-   text-align:center;
+   text-align:left;
    margin-left: 0;
-   font-family:cursive;
+   font-family: "Caveat",cursive;
  }
  .box{
    font-size: 15px;
@@ -664,7 +691,7 @@
    border: double 5px #fff;
    color: white;
    width:50%;
-   height:200px;
+   height:40px;
    margin-left: auto;
    margin-right: auto;
  }
@@ -672,8 +699,7 @@
   .news-wrapper{
     background-color: pink;
     padding:15px 18px;
-    height:250px;
-    text-align:center;
+
   }
   .box{
     padding:0;
@@ -685,7 +711,6 @@
     font-size: 15px;
     /* margin-top:5px; */
     padding:0 20px;
-    width:100%;
     color:white;
     float:left;
     margin-left: 0;
@@ -901,14 +926,46 @@ footer{
     border-top:solid 5px white;
     font-size: 15px;
   }
-  .ig-icon{
-    text-decoration:none;
-    font-size: 25px;
-    color: magenta;
+  .insta_btn {
+    display: inline-block;
+    text-align: center;/*中央揃え*/
+    color: magenta;/*文字色*/
+    font-size: 20px;/*文字サイズ*/
+  text-decoration: none;/*下線消す*/ }
+  .insta_btn:hover {/*ホバー時*/
+    color:pink;/*文字色*/
+    transition: .5s;/*ゆっくり変化*/
   }
-  .ig-icon img{
-    height: 30px;
+  .insta_btn .insta{/*アイコンの背景*/
+    position: relative;/*相対配置*/
+    display: inline-block;
+    width: 50px;/*幅*/
+    height: 50px;/*高さ*/
+    vertical-align: middle;/*垂直中央に*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    border-radius: 13px;/*角丸に*/
+    margin-left: 20px;
   }
+  .insta_btn .insta:before{/*グラデーションを重ねるため*/
+    content: '';
+    position:absolute;
+    top: 23px;/*ずらす*/
+    left: -18px;/*ずらす*/
+    width: 60px;/*グラデーションカバーの幅*/
+    height: 60px;/*グラデーションカバーの高さ*/
+    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+    margin-left: 20px;
+  }
+  .insta_btn .fa-instagram {/*アイコン*/
+    color: #FFF;/*白に*/
+    position: relative;/*z-indexを使うため*/
+    z-index: 2;/*グラデーションより前に*/
+    font-size: 35px;/*アイコンサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+  }
+
 
 [css]
 .body{
