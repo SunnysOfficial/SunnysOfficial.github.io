@@ -431,7 +431,7 @@
    border: double 5px #fff;
    color: white;
    width:50%;
-   height:50px;
+   height:100px;
    margin-left: auto;
    margin-right: auto;
  }
@@ -445,7 +445,7 @@
     padding:0;
     border: double 5px #fff;
     width:100%;
-    height:200px;
+    height:100px;
   }
   .news-wrapper li{
     font-size: 15px;
