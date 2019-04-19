@@ -342,7 +342,7 @@
     width:100%;
   }
   header{
-    height:18px;
+    height:60px;
   }
   header h1{
     font-size: 20px;
@@ -376,7 +376,7 @@
      font-size: 25px;
      opacity:0.8;
      letter-spacing:5;
-     margin:65px auto 10px 20px;
+     margin:10px auto 10px 20px;
      padding-left:0;
      /* text-align: center; */
    }
@@ -421,7 +421,7 @@
    text-align:left;
    margin-left: 0;
    font-family:cursive;
-   font-size:15px;
+   font-size:30px;
  }
  .box{
    font-size: 15px;
@@ -429,7 +429,7 @@
    border: double 5px #fff;
    color: white;
    width:50%;
-   height:150px;
+   height:180px;
    margin-left: auto;
    margin-right: auto;
  }
