@@ -83,6 +83,7 @@
   .concept-wrapper{
     background-color: pink;
     padding:15px 18px;
+    height:200px;
   }
 
 
@@ -96,7 +97,7 @@
     border: double 5px #fff;
     color: white;
     width:50%;
-    height:80px;
+    height:100px;
     margin-left: auto;
     margin-right: auto;
     font-family: "Rounded Mplus 1c";
