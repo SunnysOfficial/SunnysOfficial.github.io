@@ -2,7 +2,7 @@
 @media screen and (max-width:480px){
   div#sidebar{width:100%;}
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:481px){
   *{
     box-sizing:border-box;
   }
@@ -328,234 +328,6 @@
     height: 30px;
   }
 
-  /* [css]
-  .body{
-    overflow:scroll;
-  }
-  .footer{
-    overflow: scroll;
-  }
-  [/css] */
-
-
-
-@media screen and (minimun-width:481;)(max-width:1023px){
-  *{
-    box-sizing:border-box;
-  }
-
-
-
-  body{
-    margin:0;
-    font-family:"Hiragino Kaku GOthic ProN";
-    width:100%;
-  }
-  header{
-    color:orange;
-    height:100px;
-  }
-  header h1{
-    font-size: 20px;
-    float:left;
-    margin:10px;
-    font-weight: normal;
-    font-style:italic;
-    border-bottom:solid 1px orange;
-    letter-spacing:0.1em;
-  }
-  .header-container{
-    background-image: url("IMG_5323.PNG");
-    height:300px;
-    width:100%;
-    background-size:cover;
-    color:white;
-   }
-
-   .top-wrapper{
-     height:300px;
-     width:1170px;
-     background: rgba(255,255,255,0.3);
-     float:left;
-   }
-   .top-wrapper h1{
-     font-size: 45px;
-     opacity:0.8;
-     letter-spacing:5;
-     margin:120px auto 20px 20px;
-   }
-   .insta_btn {
-   display: inline-block;
-   text-align: center;/*中央揃え*/
-   color: magenta;/*文字色*/
-   font-size: 20px;/*文字サイズ*/
-   text-decoration: none;/*下線消す*/ }
-   .insta_btn:hover {/*ホバー時*/
-     color:pink;/*文字色*/
-     transition: .5s;/*ゆっくり変化*/
-   }
-   .insta_btn .insta{/*アイコンの背景*/
-     position: relative;/*相対配置*/
-     display: inline-block;
-     width: 50px;/*幅*/
-     height: 50px;/*高さ*/
-     vertical-align: middle;/*垂直中央に*/
-     background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-     overflow: hidden;/*はみ出た部分を隠す*/
-     border-radius: 13px;/*角丸に*/
-     margin-left: 20px;
-   }
-  .insta_btn .insta:before{/*グラデーションを重ねるため*/
-    content: '';
-    position: absolute;/*絶対配置*/
-    top: 23px;/*ずらす*/
-    left: -18px;/*ずらす*/
-    width: 60px;/*グラデーションカバーの幅*/
-    height: 60px;/*グラデーションカバーの高さ*/
-    background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%); background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
-    margin-left: : 20px;
-  }
-  .insta_btn .fa-instagram {/*アイコン*/
-    color: #FFF;/*白に*/
-    position: relative;/*z-indexを使うため*/
-    z-index: 2;/*グラデーションより前に*/
-    font-size: 35px;/*アイコンサイズ*/
-    line-height: 50px;/*高さと合わせる*/
-  }
-
-   /* https://www.instagram.com/sunnys_official/?hl=ja */
-
-   .top-wrapper p{
-    opacity:0.8;
-    margin-left: 20px;
-   }
-  .clear{
-    clear:left;
-  }
-  .news-wrapper{
-    background-color: pink;
-    padding:15px 18px;
-
-  }
-  .box{
-    padding:0;
-    border: double 5px #fff;
-    width:100%;
-    height:200px;
-  }
-  .news-wrapper li{
-    font-size: 15px;
-    /* margin-top:5px; */
-    padding:0 20px;
-    color:white;
-    float:left;
-    margin-left: 0;
-  }
-  .member-wrapper{
-    padding:20px;
-    background-color: pink;
-    text-align: center;
-  }
-
-  .heading{
-    padding-top:20px;
-    padding-bottom:10px;
-    color:#5f5d60;
-  }
-  .heading h1{
-    font-weight:normal;
-    margin-top: 10px;
-  }
-  .under{
-     position: relative;
-     padding:0.3em;
-  }
-  .under:after {
-     content: '';
-     position: absolute;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     height: 7px;
-     background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
-   }
-  .box1{
-    padding:0.5em 1em;
-    margin: 2em 0;
-    border: double 5px #fff;
-  }
-
-  .box1 img{
-    margin:0;
-    padding:0;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
-  }
-  .box1 h1{
-    font-size:32px;
-    margin-top: 0.2em;
-    color:white;
-  }
-  .box1 p{
-    font-size: 15px;
-    margin-top:5px;
-    color:white;
-    float:left;
-  }
-  .box2{
-    padding:0.5em 1em;
-    margin: 2em 0;
-    border: double 5px #fff;
-  }
-  .box2 img{
-    margin:0;
-    padding:0;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
-  }
-  .box2 h1{
-    font-size:32px;
-    margin-top: 0.2em;
-    color:white;
-  }
-  .box2 p{
-    font-size: 15px;
-    margin-top:5px;
-    color:white;
-    float:left;
-  }
-  .box3{
-    padding:0.5em 1em;
-    margin: 2em 0;
-    border: double 5px #fff;
-  }
-  .box3 img{
-    margin:0;
-    padding:0;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
-  }
-  .box3 h1{
-    font-size:32px;
-    margin-top: 0.2em;
-    color:white;
-  }
-  .box3 p{
-    font-size: 15px;
-    margin-top:5px;
-    color:white;
-    float:left;
-  }
-  .box1,.box2,.box3{
-    float:left;
-    /* border-color:white; */
-    width:28%;
-  }
-}
 
 @media screen and (max-width:480px){
   *{
@@ -570,8 +342,7 @@
     width:100%;
   }
   header{
-    color:orange;
-    height:10px;
+    height:30px;
   }
   header h1{
     font-size: 20px;
@@ -641,13 +412,14 @@
  .concept-wrapper{
    background-color: pink;
    padding:15px 18px;
+   height:200px;
  }
 
 
  .concept-wrapper h1{
    text-align:left;
    margin-left: 0;
-   font-family: "Caveat",cursive;
+   font-family:cursive;
  }
  .box{
    font-size: 15px;
