@@ -354,6 +354,7 @@
     border-bottom:solid 1px orange;
     letter-spacing:0.1em;
     width:100%;
+    margin-bottom:0;
   }
 
   .header-container{
@@ -376,7 +377,7 @@
      font-size: 25px;
      opacity:0.8;
      letter-spacing:5;
-     margin:0 auto 10px 20px;
+     margin:0 auto 10px 0;
      padding-left:0;
      padding:60px;
      /* text-align: center; */
@@ -431,7 +432,7 @@
    border: double 5px #fff;
    color: white;
    width:50%;
-   height:180px;
+   height:100px;
    margin-left: auto;
    margin-right: auto;
  }
