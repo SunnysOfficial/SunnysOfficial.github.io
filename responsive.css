@@ -378,8 +378,7 @@
      opacity:0.8;
      letter-spacing:5;
      margin:0 auto 10px 0;
-     padding-left:0;
-     padding:60px;
+     padding:60px 0 0 20px;
      /* text-align: center; */
    }
    
